@@ -1,0 +1,27 @@
+
+1. izvrsiti sql script u nekom SUBP , ja sam koristio workbanch
+	- meni je 1. put kad sam pokretao projekat sam spring napravio bazu 
+	ukoliko se to ne desi onda importujte sql script
+	
+	
+
+2. pokretanje backend-a
+
+	*** Pre pokretanja potrebno je promeniti username i password za pristup sql server-u  (application.properties fajl)
+	na putanji u fajlu  "Durag-backend-projekat\src\main\resources\application.properties"  je potrebno postaviti tacne kredencijale
+
+	- pokretanje: desni klik na projekat -> Run As -> Spring Boot app
+
+3. pokretanje frontenda
+	
+	pre svega potrebno je imati instaliran node.js (js server side) na racunaru 
+	potom je potrebno uci u sam folder, 'frontend deo' i otvoriti konzolu tj cmd (sa te lokacije) , i uneti sledece komande
+		--> ng serve  ... kad se zavrsi u google chrome-u otici na http://localhost:4200/home
+
+
+
+-----------------------------
+ukoliko treba od nule krenuti sa celim projektom npm-a, ide prvo instalacija npm pa onda instalacija angular2
+       npm install 
+       npm install -g angular-cli
+
